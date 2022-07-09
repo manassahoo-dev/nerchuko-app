@@ -1,6 +1,6 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import React from "react";
+import { Button } from "../components/atoms/Button";
 /**
  * Home Page of the Application
  * @return {JSX.Element}
@@ -15,6 +15,7 @@ export default function Home(): JSX.Element {
 
       <main className="">
         <h1 className="text-9xl text-center font-bold pt-5">Nerchuko</h1>
+        &nbsp;<Button label="Manas Sahoo"></Button>
       </main>
     </div>
   );
